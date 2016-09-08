@@ -27,7 +27,7 @@ public class SendEmail {
 	public static void main(String[] args) {
 		switch (args.length){
 		case 0:
-			System.out.println("Host address is not specified.\t e.g: host.X.Y");
+			System.out.println("Host address is not specified.\t e.g: smpt.host_address");
 			System.exit(0);
 			break;
 		case 1:
